@@ -1,6 +1,6 @@
      #!/bin/bash  
 sudo apt-get install golang
-mkdir flotilla
+mkdir ../flotilla
 export GOPATH=/home/x397liu/flotilla
 sudo go get github.com/v1n337/flotilla/flotilla-server
 sudo go get github.com/v1n337/flotilla/flotilla-client
