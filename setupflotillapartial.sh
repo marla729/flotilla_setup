@@ -1,5 +1,5 @@
      #!/bin/bash  
-mkdir flotilla
+mkdir ../flotilla
 export GOPATH=/home/x397liu/flotilla
 sudo go get github.com/v1n337/flotilla/flotilla-server
 sudo go get github.com/v1n337/flotilla/flotilla-client
