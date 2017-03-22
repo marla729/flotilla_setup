@@ -1,8 +1,8 @@
      #!/bin/bash  
 mkdir flotilla
 export GOPATH=/home/x397liu/flotilla
-go get github.com/v1n337/flotilla/flotilla-server
-go get github.com/v1n337/flotilla/flotilla-client
+sudo go get github.com/v1n337/flotilla/flotilla-server
+sudo go get github.com/v1n337/flotilla/flotilla-client
 sudo apt-get install rabbitmq-server
 sudo apt-get install elixir
 sudo apt-get install docker.io
